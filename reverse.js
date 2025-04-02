@@ -1,8 +1,10 @@
 var input = process.argv[2];
 
-if (input)
+if (input) 
   console.log(reverse(input));
 
 function reverse(original) {
-  return orignal.split('').reverseList().join('');
+  return original.split('').reverse().join('');
 }
+
+console.log(reverse("3, 4, 6, 7"));
